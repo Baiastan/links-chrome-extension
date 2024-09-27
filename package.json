@@ -1,0 +1,9 @@
+{
+  "name": "link-autofill-extension",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd links-popup && npm install && npm run build && cd .. && mkdir -p dist && cp manifest.json dist/ && cp background.js dist/ && cp contentScript.js dist/"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
